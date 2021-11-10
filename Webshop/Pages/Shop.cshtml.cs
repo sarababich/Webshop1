@@ -12,6 +12,7 @@ namespace Webshop.Pages
 
         public String FsMsg { get; set; }
         public string smth { get; set; }
+        public int MyProperty { get; set; }
         public void OnGet()
         {
             FsMsg = "Framsida av shoppen där 3 olika producter kommer ligga";
